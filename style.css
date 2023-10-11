@@ -1,0 +1,123 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 300px;
+    padding-bottom: 69%;
+    background-color: #f6f6f4;
+    background-image: url(./image/img.jpg);
+}
+
+.panel
+{
+    width: 330px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: visible;
+    margin: auto;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    position: center;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.panel-heading
+{
+    width: 300px;
+    position: relative;
+    background: #a7226e;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    
+}
+.h4{
+    font-size: 18px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.panel-body
+{
+    width: 280px;
+    position: relative;
+    background: white;
+    padding:20px;
+    text-align: left;
+    border: 2px;
+    border-color: white;
+    font-size: 16px;
+}
+.form-control
+{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid rgb(204, 204, 204);
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+.button1
+{
+    background-color: rgb(13, 11, 13);
+    width: 100%;
+    border-radius:4px ;
+    border: none;
+    height:40px;
+    font-style: normal;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;  
+}
+.button1:hover{
+    background-color: rgb(27, 32, 27);
+}
+button{
+    background-color: rgb(36, 220, 220);
+    width: 100%;
+    border-radius:4px ;
+    border: none;
+    height:30px;
+    font-style: normal;
+    color:white;
+    font-size: 12px;
+    display:inline-block; 
+    cursor: pointer;  
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+
+
+
+
